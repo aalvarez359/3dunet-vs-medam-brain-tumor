@@ -3,6 +3,8 @@ Repository for 3D U-Net vs MedSAM2 brain tumor MRI segmentation
 
 Instructions for training, inference and metrics are written at the top of each python notebook. All notebooks were run in Google Colab.
 
+Datasets can be found at here. MSD Task01_BrainTumour: http://medicaldecathlon.com/ and BraTS 2024: https://www.synapse.org/Synapse:syn53708249/wiki/626323
+
 All weights, data split jsons, dataset jsons, and inference metrics can be found https://drive.google.com/drive/folders/1mAqbM9HJ6-J0_SWVOey-MJGGAeZSE3Md?usp=drive_link
 
 Google Drive Directory Guide
