@@ -14,6 +14,7 @@ Google Drive Directory Guide for https://drive.google.com/drive/folders/1mAqbM9H
 weights: Contains all weights needed to replicate inference for each of the datasets and modalities. To run inference using the same weights that I did, make sure the inference script is pointed to the appropriate dataset_json and data_split_json directories. All weights should be in the appropriate data_split_json directory. checkpoint weights are for the highest attained dice score and last weights are for the last epoch's dice score. MSD 4 modality Unet inference is ready to run Inference using the best weight from the shared google drive. MedSAM2 MSD Flair-only inference using MedSAM2 weight is ready to run using json from google drive. Notebooks on this repository inference/msd/3d_unet_msd_inf.ipynb and inference/msd/medsam2_inference_msd_brain_flair.ipynb
 
   Ex: SAVE_DIR  = "/content/drive/MyDrive/3dunet_medsam2_drive/data_split_json/msd_task01" # Save to Google Drive
+      
       SPLIT_JSON_PATH =  "/content/drive/MyDrive/3dunet_medsam2_drive/data_split_json/msd_task01" # Save to Google Drive
 
 dataset_json: Contains the json files containing image information needed to train on the dataset. To run training scripts, make sure model is directed to the appropriate json. MSD 4 modality Unet training is ready to train using the dataset json from the shared google drive. Notebook on this repository training/unet_msd_training/3d_unet_msd_train.ipynb
