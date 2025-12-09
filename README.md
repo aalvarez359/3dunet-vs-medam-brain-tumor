@@ -15,7 +15,7 @@ weights: Contains all weights needed to replicate inference for each of the data
 
   Ex: SAVE_DIR  = "/content/drive/MyDrive/3dunet_medsam2_drive/data_split_json/msd_task01" # Save to Google Drive
       
-      SPLIT_JSON_PATH =  "/content/drive/MyDrive/3dunet_medsam2_drive/data_split_json/msd_task01" # Save to Google Drive
+  Ex: SPLIT_JSON_PATH =  "/content/drive/MyDrive/3dunet_medsam2_drive/data_split_json/msd_task01" # Save to Google Drive
 
 dataset_json: Contains the json files containing image information needed to train on the dataset. To run training scripts, make sure model is directed to the appropriate json. MSD 4 modality Unet training is ready to train using the dataset json from the shared google drive. Notebook on this repository training/unet_msd_training/3d_unet_msd_train.ipynb
 
