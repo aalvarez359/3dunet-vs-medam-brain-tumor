@@ -9,7 +9,7 @@ All weights, data split jsons, dataset jsons, and inference metrics can be found
 
 Google Drive Directory Guide
 
-weights: Contains all weights needed to replicat inference for each of the datasets and modalities. To run inference using the same weights that I did, make sure the inference script is pointed to the appropriate dataset_json and data_split_json directories. All weights should be in the appropriate data_split_json directory. checkpoint weights are for the highest attained dice score and last weights are for the last epoch's dice score. MSD 4 modality Unet inference is ready to run Inference using the best weight from the shared google drive. Notebook on this repository inference/msd/3d_unet_msd_inf.ipynb
+weights: Contains all weights needed to replicate inference for each of the datasets and modalities. To run inference using the same weights that I did, make sure the inference script is pointed to the appropriate dataset_json and data_split_json directories. All weights should be in the appropriate data_split_json directory. checkpoint weights are for the highest attained dice score and last weights are for the last epoch's dice score. MSD 4 modality Unet inference is ready to run Inference using the best weight from the shared google drive. Notebook on this repository inference/msd/3d_unet_msd_inf.ipynb
 
   Ex: SAVE_DIR  = "/content/drive/MyDrive/3dunet_medsam2_drive/data_split_json/msd_task01" # Save to Google Drive
 
